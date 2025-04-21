@@ -1,4 +1,4 @@
-﻿using AutoLotDAL.Models;
+﻿using WpfMVVM.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

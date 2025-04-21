@@ -1,4 +1,4 @@
-﻿using AutoLotDAL.Models;
+﻿using WpfMVVM.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using AutoLotDAL.Repos;
+using WpfMVVM.DAL.Repos;
 using WpfMVVM.Cmds;
 using System.Data.Entity.Core.Metadata.Edm;
 

@@ -1,5 +1,4 @@
-﻿using AutoLotDAL.Models;
-using AutoLotDAL.Repos;
+﻿using WpfMVVM.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;

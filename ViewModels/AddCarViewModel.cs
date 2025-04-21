@@ -1,5 +1,5 @@
-﻿using AutoLotDAL.Models;
-using AutoLotDAL.Repos;
+﻿using WpfMVVM.Models;
+using WpfMVVM.DAL.Repos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +8,11 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using WpfMVVM.Cmds;
 using WpfMVVM.Views;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WpfMVVM.ViewModels
 {
+    [NotMapped]
     public class AddCarViewModel : Inventory
     {
         private InventoryRepo _inventoryRepo = new InventoryRepo();

@@ -70,6 +70,27 @@
     <Compile Include="Cmds\CommandBase.cs" />
     <Compile Include="Cmds\RelayCommand.cs" />
     <Compile Include="Cmds\RelayCommandT.cs" />
+    <Compile Include="DAL\EF\AutoLotEntities.cs" />
+    <Compile Include="DAL\EF\MyDataInitializer.cs" />
+    <Compile Include="DAL\Migrations\202410161544310_InitialCreate.cs" />
+    <Compile Include="DAL\Migrations\202410161544310_InitialCreate.Designer.cs">
+      <DependentUpon>202410161544310_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\Migrations\202501251726262_EmptyMigration.cs" />
+    <Compile Include="DAL\Migrations\202501251726262_EmptyMigration.Designer.cs">
+      <DependentUpon>202501251726262_EmptyMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\Migrations\Configuration.cs" />
+    <Compile Include="DAL\Repos\BaseRepo.cs" />
+    <Compile Include="DAL\Repos\InventoryRepo.cs" />
+    <Compile Include="DAL\Repos\IRepo.cs" />
+    <Compile Include="Models\Base\EntityBase.cs" />
+    <Compile Include="Models\CreditRisk.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Inventory.cs" />
+    <Compile Include="Models\InventoryPartial.cs" />
+    <Compile Include="Models\MetaData\InventoryMetaData.cs" />
+    <Compile Include="Models\Order.cs" />
     <Compile Include="ViewModels\AddCarViewModel.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="Views\AddCarView.xaml.cs">
@@ -106,6 +127,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="DAL\Migrations\202410161544310_InitialCreate.resx">
+      <DependentUpon>202410161544310_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DAL\Migrations\202501251726262_EmptyMigration.resx">
+      <DependentUpon>202501251726262_EmptyMigration.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
